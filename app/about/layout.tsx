@@ -8,7 +8,7 @@ export default function AboutLayout({
   return (
       <>
           <nav>About navbar</nav>
-          <main>{ children }</main>
+          <main className={styles.main}>{ children }</main>
           <footer>About footer</footer>
       </>
   )
